@@ -1,0 +1,43 @@
+#postMg {
+	background-image: url("../img/MGSTRONG!!!.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	img {
+		border: 2px solid #333;
+		border-radius: 50px;
+		width: 300px;
+		margin: 10px 50px;
+	}
+	.lifeafter {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 50px;
+		align-items: stretch;
+		padding: 0 10%;
+		color: var(--light-txt-color);
+		.nobullying,
+		.pronow {
+			background-color: rgba(3, 3, 3, 0.5);
+			border-radius: 20px;
+			padding: 20px;
+			margin: 0 200px;
+		}
+	}
+	p {
+		color: $light-txt-color;
+		font-size: 1.2rem;
+	}
+	h2 {
+		color: $accent-txt-color;
+		font-family: "Special Elite", cursive;
+		font-size: 1.4rem;
+	}
+}

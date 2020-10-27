@@ -1,0 +1,16 @@
+#header {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: fit-content;
+	background-color: $dark-bg-color;
+	z-index: 2;
+	h1 {
+		color: $accent-txt-color;
+		font-family: $script-font;
+		font-size: 3rem;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+}

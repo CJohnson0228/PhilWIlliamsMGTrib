@@ -1,0 +1,640 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif; }
+
+#about {
+  background-image: url("../img/MGWHAT!!!.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #about .about-div {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 50px;
+    width: 85vw; }
+  #about img {
+    align-self: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 300px; }
+  #about p {
+    align-self: center;
+    color: #fff;
+    font-size: 2.5rem; }
+
+.MG {
+  font-family: "Special Elite", cursive;
+  color: #fadcaa; }
+
+#preMg {
+  background-color: #3f3f3f;
+  color: #fff; }
+  #preMg .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    #preMg .container h1 {
+      color: #fadcaa;
+      font-family: "Special Elite", cursive;
+      font-size: 3rem; }
+    #preMg .container p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 2rem;
+      padding-top: 30px;
+      width: 90vw;
+      align-self: center; }
+
+#myasthenia {
+  background-image: url("../img/cureMGbackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh; }
+  #myasthenia img {
+    border: 2px solid #333;
+    border-radius: 50px;
+    height: 300px; }
+  #myasthenia .mycontainer {
+    position: relative;
+    width: 90vw;
+    height: 80vh;
+    top: 10vh;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: "header header" "is does";
+    grid-gap: 60px; }
+    #myasthenia .mycontainer .hospital-title {
+      grid-area: header;
+      align-self: center;
+      justify-self: center;
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(51, 51, 51, 0.6);
+      border-radius: 20px; }
+    #myasthenia .mycontainer .is {
+      grid-area: is;
+      background-color: rgba(51, 51, 51, 0.6);
+      border-radius: 20px;
+      padding: 20px; }
+    #myasthenia .mycontainer .does {
+      grid-area: does;
+      background-color: rgba(51, 51, 51, 0.6);
+      border-radius: 20px;
+      padding: 20px; }
+    #myasthenia .mycontainer h1 {
+      color: #fff;
+      font-family: "Special Elite", cursive;
+      font-size: 5rem; }
+    #myasthenia .mycontainer h2 {
+      color: #fadcaa;
+      font-family: "Special Elite", cursive;
+      text-align: center;
+      font-size: 2rem;
+      padding: 10px; }
+    #myasthenia .mycontainer p {
+      color: #fff;
+      font-size: 1.5rem;
+      padding: 10px; }
+
+#mgeffectme {
+  background-color: #3f3f3f;
+  color: #fff;
+  display: flex; }
+  #mgeffectme .effectcont {
+    width: 80%;
+    margin: 0 10%;
+    padding: 50px 200px; }
+    #mgeffectme .effectcont h1 {
+      color: #fadcaa;
+      font-family: "Special Elite", cursive;
+      font-size: 3rem;
+      text-align: center; }
+    #mgeffectme .effectcont p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 2rem;
+      padding-top: 30px; }
+
+#postMg {
+  background-image: url("../img/MGSTRONG!!!.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  #postMg img {
+    border: 2px solid #333;
+    border-radius: 50px;
+    width: 300px;
+    margin: 10px 50px; }
+  #postMg .lifeafter {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    align-items: stretch;
+    padding: 0 10%;
+    color: var(--light-txt-color); }
+    #postMg .lifeafter .nobullying,
+    #postMg .lifeafter .pronow {
+      background-color: rgba(3, 3, 3, 0.5);
+      border-radius: 20px;
+      padding: 20px;
+      margin: 0 200px; }
+  #postMg p {
+    color: #fff;
+    font-size: 1.2rem; }
+  #postMg h2 {
+    color: #fadcaa;
+    font-family: "Special Elite", cursive;
+    font-size: 1.4rem; }
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: fit-content;
+  background-color: #3f3f3f;
+  z-index: 2; }
+  #header h1 {
+    color: #fadcaa;
+    font-family: "Special Elite", cursive;
+    font-size: 3rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center; }
+
+footer {
+  background-color: #3f3f3f;
+  text-align: center;
+  color: #fff;
+  padding: 5px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* ---------- Media Queries ------------- */
+/* --- iPhone X, XS, 11 Pro --- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #header h1 {
+    font-size: 2rem; }
+  #about .about-div {
+    display: flex;
+    flex-direction: column;
+    width: 80vw; }
+  #about img {
+    height: 200px; }
+  #about p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem; }
+  #preMg .container h1 {
+    font-size: 1.5rem; }
+  #preMg .container p {
+    font-size: 1.2rem; }
+  #myasthenia {
+    top: 0;
+    background-image: none;
+    background-color: #f3f3f3f3;
+    display: block;
+    padding: 5vw; }
+    #myasthenia .mycontainer {
+      padding: 0;
+      margin: 0;
+      top: 0;
+      width: 90vw;
+      display: inline-block; }
+      #myasthenia .mycontainer .hospital-title {
+        background: none;
+        text-align: center;
+        padding: 20px; }
+        #myasthenia .mycontainer .hospital-title img {
+          height: 200px; }
+      #myasthenia .mycontainer .is,
+      #myasthenia .mycontainer .does {
+        background: none;
+        margin: 10px; }
+      #myasthenia .mycontainer h1 {
+        color: #333;
+        padding: 5px 0;
+        font-size: 1.4rem; }
+      #myasthenia .mycontainer h2 {
+        background-color: rgba(51, 51, 51, 0.6);
+        font-size: 1.2rem; }
+      #myasthenia .mycontainer p {
+        color: #333;
+        font-size: 1rem; }
+  #mgeffectme {
+    display: block; }
+    #mgeffectme .effectcont {
+      padding: 10vh 10vw 10vh 10vw;
+      margin: 0; }
+      #mgeffectme .effectcont h1 {
+        font-size: 1.4rem; }
+      #mgeffectme .effectcont p {
+        font-size: 1rem; }
+  #postMg {
+    padding: 0;
+    display: block;
+    height: fit-content; }
+    #postMg img {
+      border: 2px solid #fff;
+      display: block;
+      height: 200px;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto; }
+    #postMg p {
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fff;
+      font-size: 1rem;
+      padding: 5px; }
+    #postMg h2 {
+      padding: 5px;
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fadcaa;
+      font-size: 1.3rem;
+      line-height: 1.5rem; }
+    #postMg .lifeafter {
+      padding: 5vh 10vw;
+      display: block; }
+      #postMg .lifeafter .nobullying,
+      #postMg .lifeafter .pronow {
+        background: none;
+        padding: 5vh 0;
+        margin: 0; } }
+
+/* --- iPhone 6, 6S, 7, 8 --- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #header h1 {
+    font-size: 2rem; }
+  #about .about-div {
+    display: flex;
+    flex-direction: column;
+    width: 80vw; }
+  #about img {
+    height: 200px; }
+  #about p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem; }
+  #preMg .container h1 {
+    font-size: 1.5rem; }
+  #preMg .container p {
+    font-size: 1.2rem; }
+  #myasthenia {
+    top: 0;
+    background-image: none;
+    background-color: #f3f3f3f3;
+    display: block;
+    padding: 5vw; }
+    #myasthenia .mycontainer {
+      padding: 0;
+      margin: 0;
+      top: 0;
+      width: 90vw;
+      display: inline-block; }
+      #myasthenia .mycontainer .hospital-title {
+        background: none;
+        text-align: center;
+        padding: 20px; }
+        #myasthenia .mycontainer .hospital-title img {
+          height: 200px; }
+      #myasthenia .mycontainer .is,
+      #myasthenia .mycontainer .does {
+        background: none;
+        margin: 10px; }
+      #myasthenia .mycontainer h1 {
+        color: #333;
+        padding: 5px 0;
+        font-size: 1.4rem; }
+      #myasthenia .mycontainer h2 {
+        background-color: rgba(51, 51, 51, 0.6);
+        font-size: 1.2rem; }
+      #myasthenia .mycontainer p {
+        color: #333;
+        font-size: 1rem; }
+  #mgeffectme {
+    display: block; }
+    #mgeffectme .effectcont {
+      padding: 10vh 10vw 10vh 10vw;
+      margin: 0; }
+      #mgeffectme .effectcont h1 {
+        font-size: 1.4rem; }
+      #mgeffectme .effectcont p {
+        font-size: 1rem; }
+  #postMg {
+    padding: 0;
+    display: block;
+    height: fit-content; }
+    #postMg img {
+      border: 2px solid #fff;
+      display: block;
+      height: 200px;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto; }
+    #postMg p {
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fff;
+      font-size: 1rem;
+      padding: 5px; }
+    #postMg h2 {
+      padding: 5px;
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fadcaa;
+      font-size: 1.3rem;
+      line-height: 1.5rem; }
+    #postMg .lifeafter {
+      padding: 5vh 10vw;
+      display: block; }
+      #postMg .lifeafter .nobullying,
+      #postMg .lifeafter .pronow {
+        background: none;
+        padding: 5vh 0;
+        margin: 0; } }
+
+/* --- iPhone 6+, 6S+, 7+, 8+ --- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  #header h1 {
+    font-size: 2rem; }
+  #about .about-div {
+    display: flex;
+    flex-direction: column;
+    width: 80vw; }
+  #about img {
+    height: 200px; }
+  #about p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem; }
+  #preMg .container h1 {
+    font-size: 1.5rem; }
+  #preMg .container p {
+    font-size: 1.2rem; }
+  #myasthenia {
+    top: 0;
+    background-image: none;
+    background-color: #f3f3f3f3;
+    display: block;
+    padding: 5vw; }
+    #myasthenia .mycontainer {
+      padding: 0;
+      margin: 0;
+      top: 0;
+      width: 90vw;
+      display: inline-block; }
+      #myasthenia .mycontainer .hospital-title {
+        background: none;
+        text-align: center;
+        padding: 20px; }
+        #myasthenia .mycontainer .hospital-title img {
+          height: 200px; }
+      #myasthenia .mycontainer .is,
+      #myasthenia .mycontainer .does {
+        background: none;
+        margin: 10px; }
+      #myasthenia .mycontainer h1 {
+        color: #333;
+        padding: 5px 0;
+        font-size: 1.4rem; }
+      #myasthenia .mycontainer h2 {
+        background-color: rgba(51, 51, 51, 0.6);
+        font-size: 1.2rem; }
+      #myasthenia .mycontainer p {
+        color: #333;
+        font-size: 1rem; }
+  #mgeffectme {
+    display: block; }
+    #mgeffectme .effectcont {
+      padding: 10vh 10vw 10vh 10vw;
+      margin: 0; }
+      #mgeffectme .effectcont h1 {
+        font-size: 1.4rem; }
+      #mgeffectme .effectcont p {
+        font-size: 1rem; }
+  #postMg {
+    padding: 0;
+    display: block;
+    height: fit-content; }
+    #postMg img {
+      border: 2px solid #fff;
+      display: block;
+      height: 200px;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto; }
+    #postMg p {
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fff;
+      font-size: 1rem;
+      padding: 5px; }
+    #postMg h2 {
+      padding: 5px;
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fadcaa;
+      font-size: 1.3rem;
+      line-height: 1.5rem; }
+    #postMg .lifeafter {
+      padding: 5vh 10vw;
+      display: block; }
+      #postMg .lifeafter .nobullying,
+      #postMg .lifeafter .pronow {
+        background: none;
+        padding: 5vh 0;
+        margin: 0; } }
+
+/* --- Galaxy S8, S8+, S9, S9+, S10, S10+, Note 8, Note 9--- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 4) {
+  #header h1 {
+    font-size: 2rem; }
+  #about .about-div {
+    display: flex;
+    flex-direction: column;
+    width: 80vw; }
+  #about img {
+    height: 200px; }
+  #about p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem; }
+  #preMg .container h1 {
+    font-size: 1.5rem; }
+  #preMg .container p {
+    font-size: 1.2rem; }
+  #myasthenia {
+    top: 0;
+    background-image: none;
+    background-color: #f3f3f3f3;
+    display: block;
+    padding: 5vw; }
+    #myasthenia .mycontainer {
+      padding: 0;
+      margin: 0;
+      top: 0;
+      width: 90vw;
+      display: inline-block; }
+      #myasthenia .mycontainer .hospital-title {
+        background: none;
+        text-align: center;
+        padding: 20px; }
+        #myasthenia .mycontainer .hospital-title img {
+          height: 200px; }
+      #myasthenia .mycontainer .is,
+      #myasthenia .mycontainer .does {
+        background: none;
+        margin: 10px; }
+      #myasthenia .mycontainer h1 {
+        color: #333;
+        padding: 5px 0;
+        font-size: 1.4rem; }
+      #myasthenia .mycontainer h2 {
+        background-color: rgba(51, 51, 51, 0.6);
+        font-size: 1.2rem; }
+      #myasthenia .mycontainer p {
+        color: #333;
+        font-size: 1rem; }
+  #mgeffectme {
+    display: block; }
+    #mgeffectme .effectcont {
+      padding: 10vh 10vw 10vh 10vw;
+      margin: 0; }
+      #mgeffectme .effectcont h1 {
+        font-size: 1.4rem; }
+      #mgeffectme .effectcont p {
+        font-size: 1rem; }
+  #postMg {
+    padding: 0;
+    display: block;
+    height: fit-content; }
+    #postMg img {
+      border: 2px solid #fff;
+      display: block;
+      height: 200px;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto; }
+    #postMg p {
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fff;
+      font-size: 1rem;
+      padding: 5px; }
+    #postMg h2 {
+      padding: 5px;
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fadcaa;
+      font-size: 1.3rem;
+      line-height: 1.5rem; }
+    #postMg .lifeafter {
+      padding: 5vh 10vw;
+      display: block; }
+      #postMg .lifeafter .nobullying,
+      #postMg .lifeafter .pronow {
+        background: none;
+        padding: 5vh 0;
+        margin: 0; } }
+
+/* --- Galaxy Note 10, 10+ --- */
+@media only screen and (min-device-width: 360px) and (max-device-width: 718px) and (-webkit-min-device-pixel-ratio: 2) {
+  #header h1 {
+    font-size: 2rem; }
+  #about .about-div {
+    display: flex;
+    flex-direction: column;
+    width: 80vw; }
+  #about img {
+    height: 200px; }
+  #about p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem; }
+  #preMg .container h1 {
+    font-size: 1.5rem; }
+  #preMg .container p {
+    font-size: 1.2rem; }
+  #myasthenia {
+    top: 0;
+    background-image: none;
+    background-color: #f3f3f3f3;
+    display: block;
+    padding: 5vw; }
+    #myasthenia .mycontainer {
+      padding: 0;
+      margin: 0;
+      top: 0;
+      width: 90vw;
+      display: inline-block; }
+      #myasthenia .mycontainer .hospital-title {
+        background: none;
+        text-align: center;
+        padding: 20px; }
+        #myasthenia .mycontainer .hospital-title img {
+          height: 200px; }
+      #myasthenia .mycontainer .is,
+      #myasthenia .mycontainer .does {
+        background: none;
+        margin: 10px; }
+      #myasthenia .mycontainer h1 {
+        color: #333;
+        padding: 5px 0;
+        font-size: 1.4rem; }
+      #myasthenia .mycontainer h2 {
+        background-color: rgba(51, 51, 51, 0.6);
+        font-size: 1.2rem; }
+      #myasthenia .mycontainer p {
+        color: #333;
+        font-size: 1rem; }
+  #mgeffectme {
+    display: block; }
+    #mgeffectme .effectcont {
+      padding: 10vh 10vw 10vh 10vw;
+      margin: 0; }
+      #mgeffectme .effectcont h1 {
+        font-size: 1.4rem; }
+      #mgeffectme .effectcont p {
+        font-size: 1rem; }
+  #postMg {
+    padding: 0;
+    display: block;
+    height: fit-content; }
+    #postMg img {
+      border: 2px solid #fff;
+      display: block;
+      height: 200px;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto; }
+    #postMg p {
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fff;
+      font-size: 1rem;
+      padding: 5px; }
+    #postMg h2 {
+      padding: 5px;
+      background-color: rgba(3, 3, 3, 0.5);
+      color: #fadcaa;
+      font-size: 1.3rem;
+      line-height: 1.5rem; }
+    #postMg .lifeafter {
+      padding: 5vh 10vw;
+      display: block; }
+      #postMg .lifeafter .nobullying,
+      #postMg .lifeafter .pronow {
+        background: none;
+        padding: 5vh 0;
+        margin: 0; } }

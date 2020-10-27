@@ -1,0 +1,21 @@
+#mgeffectme {
+	background-color: $dark-bg-color;
+	color: $light-txt-color;
+	display: flex;
+	.effectcont {
+		width: 80%;
+		margin: 0 10%;
+		padding: 50px 200px;
+		h1 {
+			color: $accent-txt-color;
+			font-family: $script-font;
+			font-size: 3rem;
+			text-align: center;
+		}
+		p {
+			font-family: $sans-serif-font;
+			font-size: 2rem;
+			padding-top: 30px;
+		}
+	}
+}
